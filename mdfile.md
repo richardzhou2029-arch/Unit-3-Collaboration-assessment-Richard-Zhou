@@ -35,6 +35,8 @@ Known for its strength and longevity, the oak is a symbol of endurance.
 Evergreen and aromatic, pine trees thrive in colder regions.
 ![Pine tree](https://gardenerspath.com/wp-content/uploads/2023/08/Pine-Tree-Propagation-Feature.jpg)
 
+---
+
 ## Tree Identification Tool
 
 You can use this simple **Javascript** function to identify a tree by its charcteristics:
@@ -42,12 +44,12 @@ You can use this simple **Javascript** function to identify a tree by its charct
 ```
 
 function identify_tree(leaf_shape, region){
-    if (leaf_shape == "needle" && region == "cold"){
-           return "Pine Tree"
-    }     else if (leaf_shape == "broad" && region == "temperature"){
-           return "Oak Tree"
-    }     else {
-           return "Unknown Tree"
+  if (leaf_shape == "needle" && region == "cold"){
+         return "Pine Tree"
+    }   else if (leaf_shape == "broad" && region == "temperature"){
+         return "Oak Tree"
+    }   else {
+         return "Unknown Tree"
     } 
 }
 console.log(identify_tree("needle", "cold"))
