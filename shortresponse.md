@@ -4,7 +4,7 @@
 
 2. Developers use branches because it is a testing site that allows them to continue working without affecting the main branch.
 
-3. **Git** is an open-source version control system tool. **Github** is a place where develoers store and manage their code. We use Git in Github as a tool alongside version control.
+3. **Git** is an open-source version control system tool. **Github** is a place where developers store and manage their code. We use Git in Github as a tool alongside version control.
 
 4. The git add . should swap places with git commit -m "saving work"
 
